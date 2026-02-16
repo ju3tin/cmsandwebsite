@@ -1,4 +1,6 @@
 'use client'
+import { Metadata } from "next";
+import React from "react";
 export const revalidate = 300
 
 export default async function BlogPage() {
